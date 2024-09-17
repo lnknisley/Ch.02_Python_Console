@@ -13,7 +13,7 @@ b//a                = 2
 b/a                 = 2.5
 b**a                = 25
 b%a                 = 1
-a+B                 = error, undefined
+a+B                 = error, undefined variable
 type(42)            = class 'int' (42)
 type(42.0)          = class 'float' 42.0 (42.0)
 type("C3PO")        = class 'str' (C3PO)
@@ -42,9 +42,9 @@ a
 
 5.) What is the mistake in the following code so it will calculate the average? Comment it and fix it!  (3pt)
 
-x,y,z =(3,4,5)
+x,y,z = (3,4,5)
 ave = (x+y+z)/3
 ave
-# The mistake is fundamentally misunderstanding the order of operations, this can be fixed by adding parentheses around x, y, and z.
+# The mistake is fundamentally misunderstanding the order of operations, with only z being divided. This can be fixed by adding parentheses around x, y, and z.
 
 '''
