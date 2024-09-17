@@ -4,15 +4,15 @@
 UPLOAD YOUR CH 2 PDF LOG! (6pts)
 
 1.) How do you enter a single line comment in a program? Give an example. (1pt)
-You use a hashtag (Ex: x = 1 #sets layer)
+You use a hashtag in order to have a single line comment (Ex: self.world_pull = 9.80 #this sets the global gravity)
 
 2.) If a=2 and b=5, predict all of the following below and record your predictions. (9pts)
 Then in the Python Console window, enter a=2 and b=5 and then all of the following and record the actual output.
 If the output is an error record the error and try to determine what the error is!
 Comment about any of your predictions that didn't match the actual output
 
-b/a                 = 2.5
 b//a                = 2
+b/a                 = 2.5
 b**a                = 25
 b%a                 = 1
 a+B                 = error, undefined
@@ -31,7 +31,7 @@ a*=10
 a/=2
 a+=12
 a-=7
-a             = 7.0 (15)
+a             = 15.0
 type(a)       = class 'float'
 
 
@@ -40,13 +40,13 @@ type(a)       = class 'float'
 x,y = (4,5)
 a = 3 * (x + y)
 a
-# The mistake is applying math syntax to programming syntax
+# The mistake is applying math syntax to programming syntax, assuming that a number before parentheses multiplies it. This can be fixed by adding the multiplication operator.
 
 5.) What is the mistake in the following code so it will calculate the average? Comment it and fix it!  (1pt)
 
 x,y,z =(3,4,5)
 ave = (x+y+z)/3
 ave
-# The mistake is fundamentally misunderstanding the order of operations
+# The mistake is fundamentally misunderstanding the order of operations, this can be fixed by adding parentheses around x, y, and z.
 
 '''
