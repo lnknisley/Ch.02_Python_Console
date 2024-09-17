@@ -29,8 +29,8 @@ a*=10
 a/=2
 a+=12
 a-=7
-a             = 15.0
-type(a)       = class 'float'
+a             = 15.0 (15)
+type(a)       = class 'float' (class 'int')
 
 
 4.) What is the mistake in the following code? Comment it and fix it!  (3pt)
