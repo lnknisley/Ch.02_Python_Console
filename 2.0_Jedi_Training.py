@@ -9,15 +9,17 @@ Then in the Python Console window, enter a=2 and b=5 and then all of the followi
 If the output is an error record the error and try to determine what the error is!
 Comment about any of your predictions that didn't match the actual output
 
-b//a                = 2
-b/a                 = 2.5
-b**a                = 25
-b%a                 = 1
-a+B                 = error, undefined variable
-type(42)            = class 'int' (42)
-type(42.0)          = class 'float' 42.0 (42.0)
-type("C3PO")        = class 'str' (C3PO)
-type(True)          = class 'bool' (True)
+input               = output (prediction)
+
+b//a                = 2.0 (2, I didn't expect the float)
+b/a                 = 2.5 (2.5)
+b**a                = 25 (25)
+b%a                 = 1 (1)
+a+B                 = error, undefined variable (error, undefined variable)
+type(42)            = class 'int' (42, I thought this was a deprecated print function. Data types passed through my mind when doing this.)
+type(42.0)          = class 'float' 42.0 (42.0, same as above)
+type("C3PO")        = class 'str' (C3PO, same as above)
+type(True)          = class 'bool' (True, same as above)
 
 
 3.) Predict what would be the final output of (a) and type(a) if you enter the following 5 lines        (3pts)
@@ -29,8 +31,8 @@ a*=10
 a/=2
 a+=12
 a-=7
-a             = 15.0 (15)
-type(a)       = class 'float' (class 'int')
+a             = 15.0 (15, I didn't expect the float)
+type(a)       = class 'float' (class 'int', same as above)
 
 
 4.) What is the mistake in the following code? Comment it and fix it!  (3pt)
